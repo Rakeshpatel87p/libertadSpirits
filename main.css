@@ -1,33 +1,87 @@
-
 * {
-	padding: 0;
-	margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  outline: 0;
+  padding: 0;
 }
 
 body {
-	background-image: linear-gradient(to right, #005C97, #363795);
-	color: white;
-	text-align: center;
+  background-image: linear-gradient(to right, #000428, #000000);
+  color: white;
+  height: 100vh;
 }
 
 header {
-	align-items: center;
-	background: orange;
-	display: flex;
-	height: 65px;
-	justify-content: space-between;
-	padding: 0 24px;
+  align-items: center;
+  display: flex;
+  height: 65px;
+  justify-content: space-between;
+  padding: 0 24px;
+  position: fixed;
 }
 
-header::after {
-	background-image: linear-gradient(to right, #005C97, #363795);;
+main {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  text-align: center;
 }
 
-.shopping-cart {
-	height: 25px;
-	width: 25px;
+h3 {
+  color: #a89700;
+  font-family: "Kaushan Script", cursive;
+  font-size: 20px;
+  letter-spacing: 1.75px;
+}
+
+.hero {
+  align-items: center;
+  display: flex;
+  justify-content: column;
+  font-size: 60px;
+  letter-spacing: 2.75px;
+  margin: auto;
+  text-align: left;
+}
+
+h1 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 60px;
+  letter-spacing: 2.75px;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+button {
+  background: none;
+  border: 1px solid #a89700;
+  color: white;
+  padding: 15px 25px;
+  transition: background 300ms ease-in-out;
+}
+
+button:hover {
+  background: #a89700;
+  cursor: pointer;
+}
+
+footer {
+  bottom: 15px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+}
+
+footer p {
+  color: #4a4a4a;
+  font-size: 12px;
 }
 
 @media screen and (min-width: 600px) {
-
 }
