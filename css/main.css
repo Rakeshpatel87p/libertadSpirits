@@ -7,7 +7,8 @@
 }
 
 body {
-  background-image: linear-gradient(to right, #000428, #000000);
+	background: #000428;
+  /* background-image: linear-gradient(to right, #000428, #000000); */
   color: white;
   height: 100vh;
 }
@@ -17,8 +18,17 @@ header {
   display: flex;
   height: 65px;
   justify-content: space-between;
-  padding: 0 24px;
-  position: fixed;
+	position: fixed;
+	width: 100%;
+}
+
+header::after {
+	content: "";
+	background: linear-gradient(to right, #000428, #a89700, #000428);
+	bottom: 0;
+	height: 1px;
+	position: absolute;
+	width: 100%;
 }
 
 main {
@@ -31,8 +41,9 @@ main {
 h3 {
   color: #a89700;
   font-family: "Kaushan Script", cursive;
-  font-size: 20px;
-  letter-spacing: 1.75px;
+  font-size: 25px;
+	letter-spacing: 1.75px;
+	padding-left: 24px;
 }
 
 .hero {
@@ -43,6 +54,10 @@ h3 {
   letter-spacing: 2.75px;
   margin: auto;
   text-align: left;
+}
+
+.mezcal-bottle {
+	height: 500px;
 }
 
 h1 {
