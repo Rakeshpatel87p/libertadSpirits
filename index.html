@@ -1,16 +1,39 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
-		<title>Libertad Spirits</title>
-		<link href="https://fonts.googleapis.com/css2?family=Courgette&family=Raleway&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="main.css">
+    <meta charset="UTF-8" />
+    <title>Libertad Spirits</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Open+Sans:ital@1&display=swap"
+      rel="stylesheet"
+    />
+		<link rel="stylesheet" href="css/main.css" />
+		<link rel="stylesheet" href="css/tingle.css" />
+		<script src="https://unpkg.com/micromodal/dist/micromodal.min.js
+		"></script>
   </head>
   <body>
-		<div class="header">
-			<span>Coming soon...</span>
-			<h1>Libertad Spirits</h1>
-			<p>A Class of its Own</p>
-		</div>
-  </body>
+    <header class="header">
+      <h3>Libertad Spirits</h3>
+    </header>
+    <main>
+      <section class="hero">
+        <img class="mezcal-bottle" src="/img/placeholder_bottle.png" alt="Mezcal Bottle" />
+        <div class="text">
+          <h1>Mezcal</h1>
+          <p>Finest batch brewed in Oaxaca, Mexico 2020</p>
+          <button id="buy-now-btn">Buy Now</button>
+        </div>
+			</section>
+			<section class="modals">
+			</section>
+    </main>
+    <footer>
+      <p>Libertad Spirits Trademark 2020</p>
+    </footer>
+	</body>
+	<script src="js/tingle.js"></script>
+	<script src="/js/age-gate-modal.js"></script>
+	<script src="js/out-of-stock-modal.js"></script>
 </html>

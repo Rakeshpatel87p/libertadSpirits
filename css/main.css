@@ -1,0 +1,102 @@
+* {
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+}
+
+body {
+	background: #000428;
+  /* background-image: linear-gradient(to right, #000428, #000000); */
+  color: white;
+  height: 100vh;
+}
+
+header {
+  align-items: center;
+  display: flex;
+  height: 65px;
+  justify-content: space-between;
+	position: fixed;
+	width: 100%;
+}
+
+header::after {
+	content: "";
+	background: linear-gradient(to right, #000428, #a89700, #000428);
+	bottom: 0;
+	height: 1px;
+	position: absolute;
+	width: 100%;
+}
+
+main {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  text-align: center;
+}
+
+h3 {
+  color: #a89700;
+  font-family: "Kaushan Script", cursive;
+  font-size: 25px;
+	letter-spacing: 1.75px;
+	padding-left: 24px;
+}
+
+.hero {
+  align-items: center;
+  display: flex;
+  justify-content: column;
+  font-size: 60px;
+  letter-spacing: 2.75px;
+  margin: auto;
+  text-align: left;
+}
+
+.mezcal-bottle {
+	height: 500px;
+}
+
+h1 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 60px;
+  letter-spacing: 2.75px;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+button {
+  background: none;
+  border: 1px solid #a89700;
+  color: white;
+  padding: 15px 25px;
+  transition: background 300ms ease-in-out;
+}
+
+button:hover {
+  background: #a89700;
+  cursor: pointer;
+}
+
+footer {
+  bottom: 15px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+}
+
+footer p {
+  color: #4a4a4a;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 600px) {
+}
